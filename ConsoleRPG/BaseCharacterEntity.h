@@ -20,7 +20,6 @@ private:
 	int mID;						//NEEDS TO BE MADE UNIQUE
 	std::string mName;				//Name of the entity that the player will be able to see
 	uint mHealth;					//The health of the entity (cannot go below zero)
-	bool mIsAlive;					//A boolean to determine if the entity is alive or dead
 	bool mIsActive;					//A boolean to determine if the entity is active(spawned in the world)
 	Location mLocation;				//The location of the entity in the world
 	GENDER mGender;					//The gender of the entity (to be used for potential sprites and or unique dialogue)
