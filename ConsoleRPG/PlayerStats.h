@@ -77,5 +77,6 @@ struct PlayerStats
 	PowerStats powerStats;
 	BehaviorStats behaviorStats;
 
+	PlayerStats() : energyType(FATIGUE) {}
 };
 #endif

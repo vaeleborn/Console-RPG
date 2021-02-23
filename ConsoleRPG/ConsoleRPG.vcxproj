@@ -140,6 +140,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="BaseCharacterEntity.cpp" />
+    <ClCompile Include="Globals.cpp" />
     <ClCompile Include="PlayerCharacter.cpp" />
     <ClCompile Include="PlayerStats.cpp" />
     <ClCompile Include="Source.cpp" />
