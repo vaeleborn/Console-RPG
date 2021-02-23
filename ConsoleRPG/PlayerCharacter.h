@@ -21,6 +21,8 @@ public:
 
 	void UseItem(int ID);
 
+	std::string GetString();
+
 	PlayerCharacter();
 
 	~PlayerCharacter();

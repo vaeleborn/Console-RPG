@@ -17,6 +17,14 @@ void PlayerCharacter::UseItem(int ID)
 		//TODO: IMPLEMENT FUNCTION BASED ON CHARACTER INVENTORY
 }
 
+std::string PlayerCharacter::GetString()
+{
+	std::stringstream rtn;
+	rtn << this->mStats.powerStats.GetString() << this->mStats.behaviorStats.GetString() << this->mStats.playerLevel.GetString() <<
+		this->mStats.activeStats.GetString();
+	return std::string(rtn.str());
+}
+
 PlayerCharacter::PlayerCharacter()
 {
 }
